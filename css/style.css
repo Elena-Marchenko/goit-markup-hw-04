@@ -129,12 +129,14 @@ img {
   width: 16px;
   height: 12px;
   fill: #757575;
+  margin-right: 10px;
 }
 
 .tel {
   width: 10px;
   height: 16px;
   fill: #757575;
+  margin-right: 10px;
 }
 
 .header-contacts-link:hover .tel,
@@ -235,6 +237,24 @@ header .address {
 
 .section-features {
   margin-bottom: 94px;
+}
+
+.box-icon {
+  width: 270px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.icon-features {
+  width: 70px;
+  height: 70px;
+  display: block;
 }
 
 /* ========= example ========= */
