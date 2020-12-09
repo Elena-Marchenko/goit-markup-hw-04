@@ -298,6 +298,7 @@ header .address {
 
 .team-position {
   color: #757575;
+  margin-bottom: 16px;
 }
 
 .container-team {
@@ -323,7 +324,7 @@ header .address {
 
 .team-cards {
   padding-bottom: 30px;
-  width: 270px;
+  min-width: 270px;
   margin-left: 30px;
 
   background: #ffffff;
@@ -343,6 +344,43 @@ header .address {
 
 .section-team {
   background: #f5f4fa;
+}
+
+.social_list {
+  display: flex;
+  justify-content: space-between;
+  width: 206px;
+  margin-left: 32px;
+}
+
+.social_list_item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background: #ffffff;
+  border-radius: 50%;
+}
+
+.social-list-icon {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+}
+
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+  fill: #ffffff;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: #2196f3;
 }
 
 /* ========= Footer ========= */
