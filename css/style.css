@@ -188,7 +188,7 @@ header .address {
 }
 
 .background {
-  background: #c4c4c4;
+  background-color: #c4c4c4;
   max-width: 1600px;
   height: 600px;
   margin-left: auto;
